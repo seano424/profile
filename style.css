@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Varela&display=swap");
+
+body {
+  background-color: aliceblue;
+}
+
+.card-title {
+  font-family: "Varela", sans-serif;
+}
+
+.card {
+  margin: 100px auto;
+}
+
+.card-body {
+  padding-top: 8rem;
+}
+
+.card-text {
+  font-family: "Poppins", sans-serif;
+}
+
+.fa {
+  padding-right: 10px;
+}
+
+/* 768 576 */
+@media (max-width: 768px) {
+  .card {
+    /* max-width: 600px; */
+    margin: 140px 50px 0 50px;
+  }
+
+  .card-body {
+    padding: 0;
+  }
+
+  .card-text {
+    font-size: 0.9em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
